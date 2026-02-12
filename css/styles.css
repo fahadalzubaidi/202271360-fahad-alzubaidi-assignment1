@@ -3,25 +3,25 @@
    =========================================== */
 :root {
     /* Color Palette - Light Mode */
-    --color-primary: hsl(250, 84%, 54%);
-    --color-primary-light: hsl(250, 84%, 64%);
-    --color-primary-dark: hsl(250, 84%, 44%);
+    --color-primary: hsl(210, 90%, 55%);
+    --color-primary-light: hsl(210, 90%, 65%);
+    --color-primary-dark: hsl(210, 90%, 45%);
     --color-secondary: hsl(340, 82%, 52%);
-    --color-accent: hsl(170, 76%, 46%);
+    --color-accent: hsl(190, 85%, 50%);
 
-    --color-text-primary: hsl(240, 8%, 12%);
-    --color-text-secondary: hsl(240, 4%, 46%);
-    --color-text-tertiary: hsl(240, 4%, 65%);
+    --color-text-primary: hsl(210, 8%, 12%);
+    --color-text-secondary: hsl(210, 4%, 46%);
+    --color-text-tertiary: hsl(210, 4%, 65%);
 
     --color-bg-primary: hsl(0, 0%, 100%);
-    --color-bg-secondary: hsl(240, 20%, 98%);
-    --color-bg-tertiary: hsl(240, 20%, 96%);
+    --color-bg-secondary: hsl(210, 20%, 98%);
+    --color-bg-tertiary: hsl(210, 20%, 96%);
 
-    --color-border: hsl(240, 12%, 88%);
-    --color-shadow: hsla(240, 8%, 12%, 0.08);
+    --color-border: hsl(210, 12%, 88%);
+    --color-shadow: hsla(210, 8%, 12%, 0.08);
 
     /* Gradients */
-    --gradient-primary: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+    --gradient-primary: linear-gradient(135deg, var(--color-primary) 0%, var(--color-accent) 100%);
     --gradient-secondary: linear-gradient(135deg, var(--color-accent) 0%, var(--color-primary) 100%);
     --gradient-glow: radial-gradient(circle at 50% 50%, var(--color-primary) 0%, transparent 70%);
 
@@ -65,24 +65,24 @@
     --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
     --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
     --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-    --shadow-glow: 0 0 40px rgba(99, 102, 241, 0.3);
+    --shadow-glow: 0 0 40px rgba(59, 130, 246, 0.3);
 }
 
 /* Dark Mode */
 [data-theme="dark"] {
-    --color-primary: hsl(250, 84%, 64%);
-    --color-primary-light: hsl(250, 84%, 74%);
-    --color-primary-dark: hsl(250, 84%, 54%);
+    --color-primary: hsl(210, 90%, 60%);
+    --color-primary-light: hsl(210, 90%, 70%);
+    --color-primary-dark: hsl(210, 90%, 50%);
 
     --color-text-primary: hsl(0, 0%, 95%);
-    --color-text-secondary: hsl(240, 4%, 75%);
-    --color-text-tertiary: hsl(240, 4%, 60%);
+    --color-text-secondary: hsl(210, 4%, 75%);
+    --color-text-tertiary: hsl(210, 4%, 60%);
 
-    --color-bg-primary: hsl(240, 10%, 8%);
-    --color-bg-secondary: hsl(240, 10%, 12%);
-    --color-bg-tertiary: hsl(240, 10%, 16%);
+    --color-bg-primary: hsl(210, 15%, 8%);
+    --color-bg-secondary: hsl(210, 15%, 12%);
+    --color-bg-tertiary: hsl(210, 15%, 16%);
 
-    --color-border: hsl(240, 10%, 20%);
+    --color-border: hsl(210, 12%, 20%);
     --color-shadow: hsla(0, 0%, 0%, 0.3);
 }
 
