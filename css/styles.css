@@ -1070,13 +1070,24 @@ section {
         display: flex;
     }
 
+    .navbar {
+        padding: 0;
+    }
+
     .nav-container {
         gap: 0;
+        padding: var(--spacing-xs) var(--spacing-sm);
+        max-width: 100%;
+    }
+
+    .nav-logo {
+        font-size: var(--font-size-lg);
     }
 
     .theme-toggle {
         margin-left: auto;
         margin-right: var(--spacing-xs);
+        padding: var(--spacing-xs);
     }
 
     .nav-menu {
