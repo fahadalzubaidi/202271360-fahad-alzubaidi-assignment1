@@ -1182,3 +1182,37 @@ section {
         grid-template-columns: 1fr;
     }
 }
+
+/* ===== Responsive Fix ===== */
+@media (max-width: 768px) {
+
+    .hero {
+        flex-direction: column-reverse;
+        /* Text first, image second */
+        text-align: center;
+    }
+
+    .hero-content {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .hero-image {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .hero-image img {
+        width: 85%;
+        max-width: 320px;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+}
