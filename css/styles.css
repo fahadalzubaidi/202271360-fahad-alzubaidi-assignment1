@@ -147,6 +147,7 @@ button {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    white-space: nowrap;
 }
 
 /* ===========================================
@@ -1175,7 +1176,7 @@ section {
     }
 
     .skills-grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr;
         gap: var(--spacing-md);
     }
 }
@@ -1213,7 +1214,7 @@ section {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-bottom: 20px;
+        margin: 0 auto 20px;
     }
 
     .hero-image img {
