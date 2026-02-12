@@ -1212,6 +1212,7 @@ section {
         width: 100%;
         display: flex;
         justify-content: center;
+        align-items: center;
         margin-bottom: 20px;
     }
 
@@ -1226,4 +1227,11 @@ section {
         gap: 15px;
     }
 
+}
+
+/* Very Small Screens - Single Column for Skills */
+@media (max-width: 480px) {
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
 }
