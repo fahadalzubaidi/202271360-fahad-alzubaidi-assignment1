@@ -1206,7 +1206,7 @@ section {
 
     .hero-content {
         width: 100%;
-        padding: 20px;
+        padding: 0;
     }
 
     .hero-image {
