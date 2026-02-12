@@ -1215,11 +1215,20 @@ section {
         justify-content: center;
         align-items: center;
         margin: 0 auto 20px;
+        padding: 0;
+    }
+
+    .image-wrapper {
+        margin: 0 auto;
+        display: block;
+        text-align: center;
     }
 
     .hero-image img {
         width: 85%;
         max-width: 320px;
+        margin: 0 auto;
+        display: block;
     }
 
     .hero-buttons {
